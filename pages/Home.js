@@ -1,6 +1,4 @@
 import React from 'react'
-import home from '../public/assets/home.png';
-import Image from 'next/image'
 
 export default function Home() {
   return (
