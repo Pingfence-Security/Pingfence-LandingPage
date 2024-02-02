@@ -5,9 +5,9 @@ import Box1 from '../components/Box1';
 
 export default function OurValues() {
   return (
-    <div className='flex justify-around items-center bg-black p-14 font-sans tracking-wider'>
+    <div className='flex justify-between items-center bg-black p-14 font-sans tracking-wider'>
       <div className='text-white flex flex-col gap-8'>
-        <h1 className='text-5xl font-semibold'>Our Values</h1>
+        <h1 className='text-4xl font-semibold'>Our Values</h1>
         <div className='text-2xl mb-8'>
           <p>Join us in our mission to create the most</p>
           <p className='text-limegreen'>impeccable technological solutions!</p>
