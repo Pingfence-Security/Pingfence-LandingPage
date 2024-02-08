@@ -3,8 +3,17 @@
 @import 'tailwindcss/utilities';
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap');
 
+body{
+    background-color: black;
+}
 .home{
     background-image: url(../public/assets/home.png);
     background-repeat: no-repeat;
     background-size: 100%;
+}
+@media screen and (max-width: 680px) {
+    .home{
+        background-size: 500%;
+    }
+    
 }

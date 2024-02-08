@@ -11,15 +11,15 @@ const Testimonials = () => {
     return (
         <div id="testimonials" className="relative">
             <div className="flex items-center">
-                <div className="border-l-4 border-limegreen h-40 mx-8 pl-4"></div>
-                <div className="ml-8 flex-grow">
-                    <h1 className="text-xl mb-4">
+                <div className="border-l-4 border-limegreen h-40 md:mx-8 pl-4"></div>
+                <div className="md:ml-8 flex-grow">
+                    <h1 className="lg:text-xl md:text-md text-xs mb-4">
                         <span className="font-bold">"</span>
                         {testimonial.quote}
                     </h1>
-                    <div className="flex items-center justify-end">
+                    <div className="flex items-center justify-end md:text-md text-xs">
                         <h2 className="text-right flex-grow">{testimonial.author}</h2>
-                        <div className="w-16 h-16 bg-gray-300 rounded-full ml-4" style={{ width: circleSize, height: circleSize }}></div>
+                        <div className="md:w-16 md:h-16 w-8 h-8 bg-gray-300 rounded-full ml-4" style={{ width: circleSize, height: circleSize }}></div>
                     </div>
                 </div>
             </div>
